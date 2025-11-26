@@ -21,9 +21,10 @@ if (session_status() === PHP_SESSION_NONE) {
                 <a href="login.php?action=logout">Logout</a>
             <?php else: ?>
                 <a href="login.php">Login</a>
-                <a href="register.php">Register</a>
+                <a href="index.php">Register</a>
             <?php endif; ?>
         </div>
     </nav>
     
+
     <div class="container">
